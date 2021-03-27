@@ -19,13 +19,12 @@ This repo is for deploying the full-stack quiz-app
 
 ## Architecture
 
-- The app uses MVC architecture: 
-                   - Model is hosted in a cloud Mongo Database cluster on Atlas (AWS server)
-                    - QuizSchema = ({ questionID: { type: Number, }, questionString: { type: String, }, choices: { type: Array, }, rightChoice: { type: String, }, });
-                   
-                   - View is built using React.JS (React Icons, & react-loader-spinner additional packages), and is hosted using gh-pages 
-                   
-                   - Controller is a REST End point that handles the client data requests, and manages the data flow
+ - The app uses MVC architecture: 
+                  
+    - Model is hosted in a cloud Mongo Database cluster on Atlas (AWS server)
+    - QuizSchema = ({ questionID: { type: Number, }, questionString: { type: String, }, choices: { type: Array, }, rightChoice: { type: String, }, });
+    - View is built using React.JS (React Icons, & react-loader-spinner additional packages), and is hosted using gh-pages 
+    - Controller is a REST End point that handles the client data requests, and manages the data flow
 
 ## Solution Focus/Trade-offs
 
